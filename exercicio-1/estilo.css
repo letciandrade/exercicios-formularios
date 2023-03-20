@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans';
+    background-color: #62CDFF;
+}
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+text-align: center ;
+    min-height: 100vh;
+}
+
+main section .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+main section .content .filme,
+main section .content .duration{
+    display: flex;
+    flex-direction: column;
+}
+
+main section .content input{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+
+    font-size: 1.6rem;
+}
+
+main section .content .btn button{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+
+    font-size: 1.6rem;
+
+    background-color: #AA77FF;
+
+    cursor: pointer;
+}
+
+main section .content .btn button:hover{
+    background-color: #AA77FF;
+}
+
+section{
+    color: #fff;
+}
+
+#my-btn{
+    color: #fff;
+    font-family: 'Open Sans';
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C9EEFF ;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius:5px;
+    color: #fff;
+}
+
+
+
+h1{
+    color: #fff;
+    padding: 10px;
+    margin:10px;
+}
+
+
+
+
